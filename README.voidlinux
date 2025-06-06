@@ -1,0 +1,42 @@
+# adv360 notes for Void Linux
+
+Testing my Advantage360 Professional on Linux, I have had mixed results with many keys. `evtest` has been able to detect many of these while X11 cannot. I don't particularly understand why.
+
+## [Consumer Controls](https://zmk.dev/docs/keymaps/list-of-keycodes#consumer-controls)
+
+|     Name      | Works? |
+| ------------- | ------ |
+| C_MEDIA_HOME  | No.    |
+| C_MEDIA_CD    | No.    |
+
+## [Applications (Launch)](https://zmk.dev/docs/keymaps/list-of-keycodes#applications-launch)
+
+| Name | Works? |
+| --------------------- | ----------------- |
+| C_AL_AUDIO_BROWSER    | No.               |
+| C_AL_CALCULATOR       | Yes!              |
+| C_AC_DESKTOP_SHOW_ALL_WINDOWS  | As "Launch". |
+| C_AL_DOCUMENTS        | No.               |
+| C_AL_FILE_BROWSER     | As "Browser".     |
+| C_AL_KEYBOARD_LAYOUT  | No.               |
+| C_AL_MY_COMPUTER      | As "Browser".     |
+| C_AL_SCREEN_SAVER     | As "Pause".       |
+| C_AL_TASK_MANAGER     | No.               |
+| C_KBIA_NEXT           | No.               |
+| C_NEXT                | As "Media Next".  |
+| C_RESET               | Yes (careful!)    |
+| C_POWER               | Yes!              |
+| C_SLEEP               | Yes!              |
+| CLEAR_AGAIN           | No.               |
+| F24                   | No.               |
+| K_APP                 | Yes!              |
+| K_CALC                | No.               |
+| K_FORWARD             | No.               |
+| K_NEXT                | No.               |
+
+## [Input Assist](https://zmk.dev/docs/keymaps/list-of-keycodes#input-assist)
+
+|             Name               | Works? |
+| ------------------------------ | ------ |
+| C_KEYBOARD_INPUT_ASSIST_ACCEPT | No.    |
+| C_KEYBOARD_INPUT_ASSIST_CANCEL | No.    |
